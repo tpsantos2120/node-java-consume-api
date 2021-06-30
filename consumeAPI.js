@@ -1,8 +1,7 @@
 const fetch = require('node-fetch');
 
-// Example POST method implementation:
 async function handleRequest(method = '', url = '', data = {}) {
-    // Default options are marked with *
+    
     const response = await fetch(url, {
         method: method,
         mode: 'cors',
